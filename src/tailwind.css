@@ -2,6 +2,11 @@
 darkgreen:#28b485;
 madiumgreen:#55c57a; */
 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
 *{
     margin: 0;
     padding: 0;
@@ -18,8 +23,8 @@ body{
     height: 96vh;
     background-image:linear-gradient(to right bottom,
     rgba(126, 213, 111, 0.81),rgba(85, 197, 122, 0.806)),
-    url(../img/hero.jpg);
+    url(css/hero.jpg);
     background-size: cover;
     background-position:top;
     clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
-}
+} */
