@@ -5,7 +5,73 @@ madiumgreen:#55c57a; */
 
 @tailwind base;
 @tailwind components;
+
+
 @tailwind utilities;
+
+/*bottom utilities */
+@layer components {
+    .btn{
+@apply focus:outline-none
+       focus:ring-2
+
+        hover:bg-gray-300
+        border
+        px-3 py-2 rounded-full
+        mt-1 text-sm
+
+        font-semibold
+        focus:ring-offset-2
+        dark:hover:bg-white 
+        dark:hover:bg-white 
+        active:shadow-xl
+        active:shadow-gray-400 
+        transform duration-500
+                                                            
+
+    }
+.btn-purple{
+    @apply focus:ring-purple-400
+         active:text-red-600
+         
+         hover:text-purple-950
+         border-purple-200 
+          
+          
+         text-purple-600
+         dark:text-purple-400 
+         
+
+}
+.btn-green{
+     @apply 
+         
+         focus:ring-green-400
+         active:text-red-600
+         hover:text-green-950
+         border-green-200 
+         text-green-600
+         dark:text-green-400 
+         
+         
+          dark:hover:bg-white 
+             active:shadow-xl
+              active:shadow-gray-400 
+              transform duration-500
+}
+}
+
+@layer base {
+    h1{
+        @apply text-2xl
+    }
+}
+@layer utilities {
+    .text-body {
+        font-size: 12px;
+    }
+}
+
 /* 
 *{
     margin: 0;
